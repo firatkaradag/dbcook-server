@@ -1,0 +1,8 @@
+[0;36mMongoose:[0m recipes.ensureIndex({ title: [33m1[39m }, { background: [33mtrue[39m })
+[0;36mMongoose:[0m users.ensureIndex({ email: [33m1[39m }, { unique: [33mtrue[39m, background: [33mtrue[39m })
+[0;36mMongoose:[0m passwordresets.ensureIndex({ user: [33m1[39m }, { background: [33mtrue[39m })
+[0;36mMongoose:[0m recipes.ensureIndex({ keywords: [33m1[39m }, { background: [33mtrue[39m })
+[0;36mMongoose:[0m passwordresets.ensureIndex({ token: [33m1[39m }, { unique: [33mtrue[39m, background: [33mtrue[39m })
+[0;36mMongoose:[0m users.ensureIndex({ name: [33m1[39m }, { background: [33mtrue[39m })
+[0;36mMongoose:[0m passwordresets.ensureIndex({ createdAt: [33m1[39m }, { expireAfterSeconds: [33m3600[39m, background: [33mtrue[39m })
+[0;36mMongoose:[0m users.ensureIndex({ keywords: [33m1[39m }, { background: [33mtrue[39m })
